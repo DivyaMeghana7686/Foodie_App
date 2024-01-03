@@ -50,7 +50,7 @@ const Body=()=>{
             </div>
             <div className="filter">
                     <button 
-                        className="btn"
+                        className="top-rated-btn"
                         onClick={() => {
                             const filteredList= listObjs.filter(
                                 (restaurant) => restaurant.info.avgRating > 4

@@ -64,9 +64,18 @@
     border-bottom-right-radius: 5px;
 }
 
-.btn{
+.filter{
     display:flex;
-    margin-left:10px;
+    justify-content: center;
+}
+
+.top-rated-btn{
+    display:flex;
+    width:130px;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
 
 }
 
@@ -135,4 +144,18 @@
     padding:20px 0px 15px;
     margin-top:15px;
     border-radius:10px;
+}
+
+.about-page h2{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    margin-top:10px;
+
+}
+
+.about-page p{
+    margin-top:10px;
+    margin-left:10px;
+    font-size:large;
 }

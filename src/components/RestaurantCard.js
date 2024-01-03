@@ -16,7 +16,6 @@ const RestaurantCard=(props)=>{
                         <h4>{resData.info.sla.deliveryTime}mins</h4>
                     </div>
                     <p>{resData.info.cuisines.join(",")}</p>
-                    <p>{resData.info.costForTwo}</p>
                 </div>
             </div>
         </div>
