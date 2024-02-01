@@ -14,8 +14,9 @@ const Header=()=>{
             <div className="nav-items">
                 <p><Link to="/">Home</Link></p>
                 <p><Link to="/about">About Us</Link></p>
-                <p><Link to="/contact">Contact Us</Link></p>
-                <p>Cart</p>
+                <button className="btn">Sign Up</button>
+                <button className="btn">Sign In</button>
+                <button className="btn">Log Out</button>
             </div>
             
         </div>
